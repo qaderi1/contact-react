@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import Navbar from "./components/Navbar";
 
-const App=()=> {
+import "./App.css";
+
+const App = () => {
   return (
     <div className="App">
       <Navbar />
     </div>
   );
-}
+};
 
 export default App;
